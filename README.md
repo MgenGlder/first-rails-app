@@ -1,4 +1,4 @@
-# README
+# First Rails App Readme
 
 A test Ruby on Rails app that _will_ be deployed to Heroku to test out building and running a real ruby on rails app. Not meant to be very complex, but hopefully can be some good practice!
 # Install 
