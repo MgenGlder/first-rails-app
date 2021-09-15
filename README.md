@@ -32,5 +32,9 @@ Notes:
     - TBD, but will be using Heroku
 
 # Deploying
-You will likely have to explicitly allow for the bin/webpack file to be sent with the deploy. 
-Use this command to get the job done: `git add -f bin/webpack && git push heroku head:master`
+- You will likely have to explicitly allow for the bin/webpack file to be sent with the deploy. 
+- Use this command to get the job done: `git add -f bin/webpack && git push heroku head:master`
+- In order to run migrations, do: `heroku run rake db:migrate`
+- In order to run scaling, do: `heroku ps:scale web=1`
+- In order to check the state of the dyno, do: `heroku ps`
+# Your Viewing Pleasure™
