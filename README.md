@@ -30,3 +30,7 @@ Notes:
     - None at the moment.
 * Deployment instructions
     - TBD, but will be using Heroku
+
+# Deploying
+You will likely have to explicitly allow for the bin/webpack file to be sent with the deploy. 
+Use this command to get the job done: `git add -f bin/webpack && git push heroku master`
