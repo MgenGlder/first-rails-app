@@ -30,3 +30,13 @@ Notes:
     - None at the moment.
 * Deployment instructions
     - TBD, but will be using Heroku
+
+# Deploying
+- You will likely have to explicitly allow for the bin/webpack file to be sent with the deploy. 
+- Use this command to get the job done: `git add -f bin/webpack && git push heroku head:master`
+- In order to run migrations, do: `heroku run rake db:migrate`
+- In order to run scaling, do: `heroku ps:scale web=1`
+- In order to check the state of the dyno, do: `heroku ps`
+- In order to open the app in a browser, do: `heroku open`
+- In order to view heroku logs, do: `heroku logs` or `herouku logs --tail`
+# Your Viewing Pleasure™
