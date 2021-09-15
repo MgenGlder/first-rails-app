@@ -1,10 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
+A test Ruby on Rails app that _will_ be deployed to Heroku to test out building and running a real ruby on rails app. Not meant to be very complex, but hopefully can be some good practice!
 # Install 
 Use `bundle install` to install the repository.
 
