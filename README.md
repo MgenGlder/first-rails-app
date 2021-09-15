@@ -37,4 +37,5 @@ Notes:
 - In order to run migrations, do: `heroku run rake db:migrate`
 - In order to run scaling, do: `heroku ps:scale web=1`
 - In order to check the state of the dyno, do: `heroku ps`
+- In order to open the app in a browser, do: `heroku open`
 # Your Viewing Pleasure™
