@@ -33,4 +33,4 @@ Notes:
 
 # Deploying
 You will likely have to explicitly allow for the bin/webpack file to be sent with the deploy. 
-Use this command to get the job done: `git add -f bin/webpack && git push heroku master`
+Use this command to get the job done: `git add -f bin/webpack && git push heroku head:master`
