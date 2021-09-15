@@ -38,4 +38,5 @@ Notes:
 - In order to run scaling, do: `heroku ps:scale web=1`
 - In order to check the state of the dyno, do: `heroku ps`
 - In order to open the app in a browser, do: `heroku open`
+- In order to view heroku logs, do: `heroku logs`
 # Your Viewing Pleasure™
