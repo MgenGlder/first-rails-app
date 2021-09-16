@@ -1,6 +1,6 @@
 # First Rails App Readme
 
-A test Ruby on Rails app that _will_ be deployed to Heroku to test out building and running a real ruby on rails app. Not meant to be very complex, but hopefully can be some good practice!
+A test Ruby on Rails app that is [deployed to Heroku](https://cryptic-coast-57453.herokuapp.com/) to test out building and running a real ruby on rails app. Not meant to be very complex, but hopefully can be some good practice!
 # Install 
 Use `bundle install` to install the repository.
 You'll also need to initialize Postgres, so you can do that with `initd -D ./data`
@@ -40,3 +40,4 @@ Notes:
 - In order to open the app in a browser, do: `heroku open`
 - In order to view heroku logs, do: `heroku logs` or `herouku logs --tail`
 # Your Viewing Pleasure™
+Heroku Link: https://cryptic-coast-57453.herokuapp.com/
