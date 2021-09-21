@@ -3,7 +3,7 @@
 A test Ruby on Rails app that is [deployed to Heroku](https://cryptic-coast-57453.herokuapp.com/) to test out building and running a real ruby on rails app. Not meant to be very complex, but hopefully can be some good practice!
 # Install 
 Use `bundle install` to install the repository.
-You'll also need to initialize Postgres, so you can do that with `initd -D ./data`
+You'll also need to initialize Postgres, so you can do that with `initdb -D ./data`
     Do it locally, because the default folder int `/usr/` doesn't have the correct permissions on my laptop
 Then, in order to run the Postgres server, run `postgres -D ./data`
 Also, you'll probably need to create the database or else you'll have some tubular issues, you can do that with: `rake db:create` and then `rake db:migrate`.
